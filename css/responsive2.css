@@ -1,0 +1,17 @@
+@media (max-width: 575px) {
+    .sec1__header__title {       
+        font-size: 1.5vw;
+    }
+    .sec1__header__45year {
+        width: 15vw;
+    }
+}
+
+
+@media (max-width: 768px){   
+
+}
+
+@media (min-width: 769px) and (max-width:1024px){
+   
+}
