@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Merienda:wght@300..900&display=swap');
+
+.sec1{
+    position: relative;
+    font-size: 0.652vw;
+    height: 100vh;
+}
+.sec1__thumb{
+    width: 100%;
+    height: 100%;
+}
+.sec1__thumb__img{
+    width: 100%;
+    height: 100%;
+}
+.sec1__header{
+    position: absolute;
+    top: 3em;
+    left: 3em;
+    right: 3em;
+
+    display: flex;
+    justify-content: space-between;
+}
+.sec1__header__45nam{
+    width: 8vw;
+}
+.sec1__header__title{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 0.652vw;
+    color: blue;
+    font-family: "Merienda", cursive;
+    font-weight: 600;
+}
+.sec1__header__title span {
+    font-size: 1.8em;
+}
+.sec1__img{
+    position: absolute;
+    top: 8em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 62vw;
+}
+.sec1__tenphim{
+    position: absolute;
+    top: 52em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 29vw;
+}
+

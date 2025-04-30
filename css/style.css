@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Merienda:wght@300..900&display=swap');
 
+:root{
+    --color-blue: 70, 70, 155;  
+}
+
+body{
+    overflow: hidden;
+}
+
+/* aminition */
+@keyframes animateUpDown{
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
 .sec1{
     position: relative;
     font-size: 0.652vw;
@@ -58,4 +80,42 @@
     left: 50%;
     transform: translateX(-50%);
     width: 30vw;     
+}
+.sec1__footer{
+    position: absolute;
+    bottom: 2em;
+    left: 3em;
+    right: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec1__footer__timeline{
+    width: 14vw;
+    animation: 8s ease-in-out 0s infinite normal none running animateUpDown;
+}
+.sec1__footer__list{
+    font-size: 0.652vw;
+    color: rgba(var(--color-blue),0.9);  
+    margin-bottom: 0.7em;
+}
+
+.sec1__footer__list>li{
+    font-size: 1.4em;
+    margin-bottom: 0.3em;
+}
+
+.sec1__footer__list > li:first-child > strong{
+    font-size: 1.6em;
+}
+.sec1__footer__list > li:first-child > span{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+
+.sec1__footer__info>p{
+    color: rgba(var(--color-blue),0.9); 
+    font-size: 0.652vw;
 }

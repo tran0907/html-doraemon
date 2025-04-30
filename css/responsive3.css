@@ -1,7 +1,4 @@
 @media (max-width: 576px) {
-    .sec1{
-        height: 159vw;
-    }
     .sec1__header__title {       
         font-size: 1.5vw;
     }
@@ -9,33 +6,14 @@
         width: 15vw;
     }
 
-    .sec1__imgs {        
+    .sec1__img {        
         top: 22em;       
         width: 95vw;
     }
 
-    .sec1__title {
+    .sec1__tenphim {
         top: 91em;
         width: 50vw;
-    }
-
-    .sec1__footer {
-        top: 87vw;
-        bottom: auto;
-        flex-direction: column;
-        gap: 15em;
-    }
-
-    .sec1__footer__list {
-        font-size: 2vw;
-    }
-
-    .sec1__footer__info>p {
-        font-size: 2vw;
-    }
-
-    .sec1__footer__timeline {
-        width: 42vw;
     }
 }
 
