@@ -4,9 +4,6 @@
     --color-blue: 70, 70, 155;  
 }
 
-body{
-    overflow: hidden;
-}
 
 /* aminition */
 @keyframes animateUpDown{
