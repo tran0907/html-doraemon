@@ -2,13 +2,13 @@
 HTML Doraemon
 
 # git 
-*** git clone***
+***git clone***
 dùng để kéo repo từ gihub về
 ```bash
     git clone <url>
 ```
 
-*** lệnh cơ bản git push lên***
+***lệnh cơ bản git push lên***
 ```bash 
 git status
 git add .
@@ -16,21 +16,21 @@ git commit -m "ghi chu"
 git push origin tên_nhánh
 ```
 
-*** lệnh kéo về ***
+***lệnh kéo về***
 ```bash
 git pull origin tên_nhánh
 ```
 
-*** tạo nhánh mới ***
+***tạo nhánh mới***
 git checkout -b tên_nhánh
 
-*** xóa nhánh ***
+***xóa nhánh***
 git branch -d tên_nhánh
 
-*** git merge nhánh ***
+***git merge nhánh***
 git merge tên_nhánh 
 
-*** quy trình xử ly conflict ***
+***quy trình xử ly conflict***
 khi merge nhánh con ( nhánh đang làm vào nhánh chính (ex: dev, masterr,...))
 bị conflict
 
@@ -55,4 +55,8 @@ trường hợp đang làm nhiều người trên nhánh hoặc nhiều máy th�
 git stash
 git pull origin tên_nhánh ( đang làm)
 git stash pop
+```
+***keo tat ca cac nhanh ve***
+```bash
+git fetch
 ```
