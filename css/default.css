@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
-dddd
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,7 +23,7 @@ dddd
 body {
     line-height: 1.4;
     overflow-x: hidden;
-    font-family: 'SourceSansPro', sans-serif;
+    font-family: 'SourceSansPro1', sans-serif;
 }
 
 html {
