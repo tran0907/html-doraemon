@@ -55,5 +55,4 @@ trường hợp đang làm nhiều người trên nhánh hoặc nhiều máy th�
 git stash
 git pull origin tên_nhánh ( đang làm)
 git stash pop
-
 ```
