@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+:root{
+    --hpv-yellow: #FFDD6F;
+    --hpv-white:#ffffff;
+}
+.sec1{
+    font-size: 0.652vw;
+    background-image: url(../img/hpv/masthead-bg.webp);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    height: 100vh;
+    padding:7.5% 10% 0 8%;
+}
+.sec1__thumb{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.sec1__thumb__img{
+    height: 100%;
+    width: auto;
+}
+.sec1__info{
+    font-size: 0.652vw;
+    width: 45%;
+    padding-top: 5%;
+    font-family: "Unbounded", sans-serif;
+}
+.sec1__info__title{
+    font-size: 4em;
+    font-weight: 700;
+    color: var(--hpv-yellow);
+    margin-bottom: 0.5em;
+}
+.sec1__info__list{
+    font-size: 1.2em;
+    color: var(--hpv-white);
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+.sec1__info p {
+    margin-bottom: 1em;
+}
+
