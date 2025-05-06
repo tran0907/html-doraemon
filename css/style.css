@@ -68,7 +68,7 @@
     top: 3em;
     left: 50%;
     transform: translateX(-50%);
-    width: 57vw;    
+    height: 68vh;    
 }
 
 .sec1__title{
@@ -76,7 +76,7 @@
     top: 46em;
     left: 50%;
     transform: translateX(-50%);
-    width: 30vw;     
+    height: 30vh;     
 }
 .sec1__footer{
     position: absolute;
