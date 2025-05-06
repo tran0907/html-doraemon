@@ -84,12 +84,12 @@
     transform: scale(1.05);        
   }
 .sec1__info__note{
-    font-size: 0.8em;
+    font-size: 1em;
     margin-bottom: 2em;
     color: var(--hpv-white);
     display: block;
 }
-.sec1__info__noteExtra{
+.sec1__info__noteextra{
     color: var(--hpv-white);
     font-size: 1.5em;
     margin-bottom: 2em;
