@@ -3,7 +3,23 @@
 :root{
     --hpv-yellow: #FFDD6F;
     --hpv-white:#ffffff;
+    --hpv-bluegrey:#052A25;
+    --hpv-black:#000000;
 }
+/* aminition */
+@keyframes animateUpDown{
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
 .sec1{
     font-size: 0.652vw;
     background-image: url(../img/hpv/masthead-bg.webp);
@@ -13,6 +29,8 @@
     display: flex;
     height: 100vh;
     padding:7.5% 10% 0 8%;
+
+    position: relative;
 }
 .sec1__thumb{
     width: 55%;
@@ -28,7 +46,7 @@
 .sec1__info{
     font-size: 0.652vw;
     width: 45%;
-    padding-top: 5%;
+    padding-top: 4%;
     font-family: "Unbounded", sans-serif;
 }
 .sec1__info__title{
@@ -41,9 +59,53 @@
     font-size: 1.2em;
     color: var(--hpv-white);
     font-weight: 400;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 .sec1__info p {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    color: var(--hpv-white);
+    font-size: 1.2em;
+}
+.sec1__info__btn{
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    font-weight: 700;
+    background-color: var(--hpv-bluegrey);
+    color: var(--hpv-white);   
+
+    padding: 0.5em 2em;            
+    border-radius: 1.5em;         
+    cursor: pointer;
+}
+.sec1__info__btn:hover {
+    background-color: var(--hpv-white);
+    color: var(--hpv-black);      
+    letter-spacing: 1px; 
+    transform: scale(1.05);        
+  }
+.sec1__info__note{
+    font-size: 0.8em;
+    margin-bottom: 2em;
+    color: var(--hpv-white);
+    display: block;
+}
+.sec1__info__noteExtra{
+    color: var(--hpv-white);
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    font-family: "Unbounded", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .1em;
+    flex-direction: column;
+
+    position: absolute;
+    bottom: 1.5em;
+    left: 50%;
+    transform: translateX(-50%);
+
+    animation: 8s ease-in-out 0s infinite normal none running animateUpDown;
 }
 
