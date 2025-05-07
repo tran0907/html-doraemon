@@ -34,7 +34,12 @@
         display: none;
     }
     .sec1__thumb__img{
-        padding: auto;
+        display: block;
+      margin: 0 auto;          /* Căn giữa hình ảnh */
+      max-width: 120%;         /* Co giãn theo kích thước màn hình */
+      height: auto; 
+        object-fit: cover;
+       
     }
 }
 
