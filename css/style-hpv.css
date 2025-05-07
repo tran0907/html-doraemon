@@ -40,8 +40,8 @@
 
 }
 .sec1__thumb__img{
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 .sec1__info{
     font-size: 0.652vw;
